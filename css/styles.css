@@ -54,8 +54,6 @@ a:focus {
 
 .main {
   background-color: #2E2F42;
-  width: 1440px;
-  height: 600px;
 }
 
 .main-title {
@@ -69,8 +67,6 @@ a:focus {
 
 .main-button {
   background-color: #4D5AE5;
-  width: 169px;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,11 +78,6 @@ a:focus {
 .main-button:hover,
 .main-button:focus {
   background-color: #404BBF;
-}
-
-.features-list-item {
-  width: 264px;
-  height: 104px;
 }
 
 .features-subtitle {

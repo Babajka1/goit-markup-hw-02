@@ -53,11 +53,7 @@ a:focus {
 }
 
 .main {
-  box-sizing: border-box;
   background-color: #2E2F42;
-  padding-top: 188px;
-  padding-left: 472;
-  padding-bottom: 292px;
   width: 1440px;
   height: 600px;
 }
@@ -69,12 +65,9 @@ a:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  box-sizing: content-box;
 }
 
 .main-button {
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4D5AE5;
   width: 169px;
   height: 56px;
@@ -86,7 +79,8 @@ a:focus {
   cursor: pointer;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
   background-color: #404BBF;
 }
 
@@ -127,8 +121,6 @@ a:focus {
 }
 
 .team-list-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
@@ -180,7 +172,7 @@ a:focus {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
